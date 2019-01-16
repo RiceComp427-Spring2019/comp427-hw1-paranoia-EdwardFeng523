@@ -69,18 +69,34 @@ please cut-and-paste the text from that email here._
 
 
 ## Problem 2
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: {Grading}
 - Assumptions:
   - explain_your_assumptions
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The integrity of the grades. The grades must remain what they are and cannot be
+    modified by anybody. Make sure that only I, along with other graders can change
+    the grade.
+  - The authenticity and integrity of the homework. Once homework is due, they can't
+    change it anymore and the homework must be their authentic work. There shouldn't
+    be any plagiarism.
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - System hack. Some students might try to sneak into the system and change their grades.
+    In this case the graders are no longer the only people who can edit the grades.
+  - Cheating. Some students might keep working on the homework after it is due, this
+    would happen especially when the homework is submitted online. Some students might
+    copy other students homework entirely, which is plagiarizing.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Build a robust online grading system that uses sophisticated authentication system,
+   maybe two factor authentication, when we're trying to change the grade, and only the
+   graders have access to these special authentications (the two factor authentication app
+   can only be installed on the graders' cell phones). The cost might be a little high but
+   it is super necessary because having other people messing around with the system definitely
+   needs to be avoided.
+  - We can keep a time stamp whenver something got edited or submitted. Then when we're grading
+    them, we need to double check the time stamp on each submitted homework. For plagiarism, we
+    can manually check every single pair of homework, which requires significant amount of human
+    work and is probably not worth it. We can also develop or purchase some software to do this,
+    it might be costly but can save up a lot of human hours.
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
