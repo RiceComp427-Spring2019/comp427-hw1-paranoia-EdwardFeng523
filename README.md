@@ -11,9 +11,9 @@ and will be rendered to beautiful HTML when you visit your GitHub repo.
 ## Student Information
 Please also edit _README.md_ and replace your instructor's name and NetID with your own:
 
-_Student name_: Dan WALLACH
+_Student name_: Edward Feng
 
-_Student NetID_: dwallach
+_Student NetID_: jf44
 
 Your NetID is typically your initials and a numeric digit. That's
 what we need here.
@@ -22,15 +22,15 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: {Stadium}
 - Assumptions:
-  - explain_your_assumptions
+  - Assume a lot of people are coming to watch the game in this stadium
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The safety of the people watching the game in the stadium
+  - That the game runs smoothly without interruption
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - Malicious people sneaking into the stadium threating people watching the game
+  - Malicious people interrupting the game (cut electricity etc.)
 - Countermeasures:
   - explanatory_paragraph
   - explanatory_paragraph ...
