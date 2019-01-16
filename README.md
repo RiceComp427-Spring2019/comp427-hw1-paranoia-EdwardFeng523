@@ -24,16 +24,49 @@ please cut-and-paste the text from that email here._
 ## Problem 1
 - Scenario: {Stadium}
 - Assumptions:
-  - Assume a lot of people are coming to watch the game in this stadium
+  - Assume a lot of people are coming to watch the game in this stadium, since
+    the team is frequently ranked among the best in the country.
+    Also assume that we have a really professional security team with all of the
+    necessary equipments available.
+    Also assume that we know what team are the fans rooting for when we sell them
+    the tickets.
 - Assets:
-  - The safety of the people watching the game in the stadium
-  - That the game runs smoothly without interruption
+  - The safety of the people watching the game in the stadium. This is definitely
+    the most important one since there will be a significant amount of audience
+    in the stadium when there's a game.
+  - The safety of the players playing in the game. The players are the people who
+    generate the profit so we definitely need to make them safe.
+  - The facility inside of the stadium. The stadium is a huge and complicated 
+    system that has a lot of important facilities which need to be safe.
+  - That the game runs smoothly without interruption. The people paid to watch a 
+    smooth game and the players trained for playing a smooth game. We need to make
+    sure that both groups get what they deserve.
 - Threats:
-  - Malicious people sneaking into the stadium threating people watching the game
-  - Malicious people interrupting the game (cut electricity etc.)
+  - Malicious people sneaking into the stadium threating people watching the game.
+    There might be malicious people trying to get into the stadium and use dangerous
+    items or even weapons to threat other people.
+  - Fans for different teams fighting against each other. Fans can be crazy sometimes.
+  - Malicious people interrupting the game (cut electricity etc.) There are always
+    some people who are trying to interrupt the game. They might cut the water or
+    electricity etc.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - For the first and the third threats, we need to set security check at every
+    entrance of the stadium to make sure that nobody brings dangerous stuff into
+    the stadium. The cost might be a little high considering we need to get the
+    professional equipments for things like scanning and detecting. But the benefit
+    is enormous as it can help us avoid so many problems in the stadium.
+  - To avoid fans for different teams fighting each other. We can try to put them into
+    different sections when we assign them seats, as we assumed that we know who they
+    are rooting for. The cost is not that high here and the benefit is decent. But the
+    assumption that we made is critical, otherwise we wouldn't know how to separate these
+    fans.
+  - To avoid people interrupting the game, we need to make sure that we have our security
+    people patrolling around the stadium, especially around the critical areas. The cost
+    is not that high and it should be enough to address issues that are not so serious.
+    Also for threats like power cut, we need to have a backup system in case there's 
+    emergency. The cost of this might be really high, but the benefit is also enormous,
+    since it guarantees that the game runs smoothly.
+
 
 ## Problem 2
 - Scenario: {Stadium|TSA|Documents|Grading|G20}
